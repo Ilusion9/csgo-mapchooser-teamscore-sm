@@ -5,8 +5,6 @@
 #include <cstrike>
 #include <mapchooser>
 
-ConVar g_Cvar_StartScore;
-
 public Plugin myinfo =
 {
 	name = "Mapchooser Teamscore",
@@ -15,6 +13,8 @@ public Plugin myinfo =
 	version = "1.0",
 	url = "https://github.com/Ilusion9/"
 };
+
+ConVar g_Cvar_StartScore;
 
 public void OnPluginStart()
 {
